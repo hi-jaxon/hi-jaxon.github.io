@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #668586;
+}
+
+.curved {
+    background-color: #668586;
+    color: #ffffff;
+}
+
+#selfie {
+max-width: 75%;
+margin: auto;
+display: block;
+}
