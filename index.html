@@ -27,7 +27,7 @@
             <div class="col-md-12 col-lg-6 scrollable">
                 <div id="aboutSection" class="section">
                     <!-- <h2 class="sec-title">About me</h2> -->
-                    <img id="selfie" src="img/me.jpg" alt="hello~">
+                    <img id="selfie" src="img/me.jpg" alt="">
                     <p class="sec-content">
                         <div id="hello-msg">Hi, I'm Jaxon.</div><br>
                         I'm a software engineer and part-time master's student at the University of Pennsylvania.
@@ -41,8 +41,23 @@
                 </div>
                 <div id="projectsSection" class="section">
                     <h2 class="sec-title">My projects</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus massa quis ultricies dignissim. Morbi eleifend velit magna, eu ornare magna gravida quis. Etiam pulvinar arcu risus, et dapibus arcu imperdiet ut. Praesent et augue ut ex cursus faucibus. Sed dignissim, quam sed tempor auctor, nibh nulla suscipit sapien, fringilla congue orci nunc ac nunc. Maecenas malesuada dapibus augue a dignissim. Aliquam ut finibus ligula, quis imperdiet sapien. Suspendisse a nibh gravida, facilisis tortor eget, commodo nunc. Cras nunc ipsum, egestas ut massa sed, ultrices facilisis ex. Nam aliquam dapibus dolor, vitae ullamcorper dui pretium vitae. Nulla tempor efficitur felis a tincidunt. Quisque et bibendum odio. Praesent a ligula id magna dapibus viverra. Morbi porta faucibus ante, sit amet eleifend purus faucibus ac. Fusce hendrerit non nulla sed ultrices. Donec sodales mauris quis ligula porta vulputate tempor eget est. Sed ultricies imperdiet nibh, consequat scelerisque mauris condimentum ac. Aliquam vel nisi ipsum. Sed bibendum augue nulla, ut auctor nulla cursus vitae. Sed quis massa varius, tincidunt lectus eu, commodo turpis.
-                    </p>
+                    <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/dominoes.gif" alt=""></div>
+                        <div class="col-lg-8">
+                            Developed an AI domino player that employs alpha-beta search to efficiently explore the game tree to 
+                            search for the best move.<br><br>
+                            In this game, the human player always places dominoes vertically, while the computer
+                            places them horizontally. The last player to succesfully place a domino on the board wins.
+                        </div>
+                    </div>
+                    <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/tile-puzzle.gif" alt=""></div>
+                        <div class="col-lg-8">
+                            Developed a solver for the 8-tile puzzle. Implemented A* search with a Manhattan distance heuristic
+                            to guide the AI toward a solution in a reasonable time.<br><br>
+                            The black square represents a blank space, into which the the AI can slide any of the four adjacent tiles.
+                        </div>
+                    </div>
                 </div>
                 <div id="resumeSection" class="section">
                     <h2 class="sec-title">My resume</h2>

@@ -89,3 +89,13 @@ h6.active {
     padding-left: 100px;
     transform: scale(1);
 }
+
+/* PROJECTS */
+
+.project {
+    padding: 2em 0;
+}
+
+.project-img {
+    max-width: 100%;
+}
