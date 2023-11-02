@@ -42,6 +42,29 @@
                 <div id="projectsSection" class="section">
                     <h2 class="sec-title">My projects</h2>
                     <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/pacman.gif" alt=""></div>
+                        <div class="col-lg-8">
+                            Implemented an approximate Q-learning agent (a subclass of the grid world Q-learning agent below).<br><br>
+                            This agent navigates through a game of Pacman, learning about its environment through a series of training episodes
+                            (not shown here) to learn the optimal policy, exploiting a weighted feature function that maps features of the environment 
+                            to their values from the agent's POV.<br><br>
+                            Shown here are 10 consecutive games where the agent is acting
+                            based off the optimal policy it developed in training. The agent wins every game.
+                        </div>
+                    </div>
+                    <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/gridworld-q-learning.gif" alt=""></div>
+                        <div class="col-lg-8">
+                            Designed a Q-learning agent that learns through interactions with its stochastic environment
+                            via trial & error.<br><br>
+                            Note that the agent prioritizes exploration early on, then it grows more confident with increasing
+                            iterations. Through trial & error, the agent gradually begins to favor the safer upper route which
+                            completely avoids the pitfall on the lower route.<br><br>
+                            At the end of the 30s gif, you can see the values assigned by the agent to each state in the grid,
+                            as well as the optimal policy for each state denoted by the arrows.
+                        </div>
+                    </div>
+                    <div class="project row">
                         <div class="col-lg-4"><img class="project-img" src="img/dominoes.gif" alt=""></div>
                         <div class="col-lg-8">
                             Developed an AI domino player that employs alpha-beta search to efficiently explore the game tree to 
