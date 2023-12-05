@@ -67,10 +67,23 @@
                     <div class="project row">
                         <div class="col-lg-4"><img class="project-img" src="img/dominoes.gif" alt=""></div>
                         <div class="col-lg-8">
-                            Developed an AI domino player that employs alpha-beta search to efficiently explore the game tree to 
-                            search for the best move.<br><br>
+                            Developed an AI domino player that employs the minimax algorithm to explore the states of the game and choose
+                            the state most likely to lead to victory. I also implemented alpha-beta pruning to more efficiently explore the game tree.
+                            By cutting of branches of the game tree that lead to less-than-optimal outcomes for the computer, computation time is reduced
+                            and the computer can explore deeper branches of the game, more effectively searching for the best outcome.
+                            <br><br>
                             In this game, the human player always places dominoes vertically, while the computer
                             places them horizontally. The last player to succesfully place a domino on the board wins.
+                            The computer considers the "best" move to be that which leaves the most available domino placements for the computer
+                            and the least available domino placements for the human opponent.
+                        </div>
+                    </div>
+                    <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/grid_navigation.gif" alt=""></div>
+                        <div class="col-lg-8">
+                            Implemented A* search to find the shortest path between a pair of points on a two-dimensional grid, maneuvering around obstacles.<br><br>
+                            A* relies on a heuristic function to prioritize exploration of paths that are likely to be the shortest. For this project, I used the Euclidean
+                            distance between the start and end points as the heuristic function.
                         </div>
                     </div>
                     <div class="project row">
