@@ -26,10 +26,10 @@ padding: 0 10%;
 
 
 /* Default styles that apply to all screen sizes */
-.fixed-column {
+/* .fixed-column { */
     /* background-color: red; */
     /* flex-direction: column; */
-}
+/* } */
 
 /* Styles for large screens */
 @media (min-width: 992px) {
