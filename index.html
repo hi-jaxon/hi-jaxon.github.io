@@ -11,6 +11,7 @@
 </head>
 <body class="color">
 
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-lg-6 fixed-column">
@@ -42,7 +43,16 @@
                 <div id="projectsSection" class="section">
                     <h2 class="sec-title">My projects</h2>
                     <div class="project row">
-                        <div class="col-lg-4"><img class="project-img" src="img/pacman.gif" alt=""></div>
+                        <div class="col-lg-4"><img class="project-img" src="img/biography-parser.gif" alt="" data-toggle="modal" data-target="#enlargedPhotoModal"></div>
+                        <div class="col-lg-8">
+                            Used fine-tuning to customize an OpenAI model to parse Wikipedia biographies. The model was passed in a large JSON
+                            file containing Wikipedia style biographies followed by parsed facts about that person in a "category: fact" format.
+                            I adjusted the parameters of the model (temperature, top_p, frequency_penalty, presence_penalty, etc.) until the model
+                            consistently output consistent, useful, and accurate information from the given biography.
+                        </div>
+                    </div>
+                    <div class="project row">
+                        <div class="col-lg-4"><img class="project-img" src="img/pacman.gif" alt="" data-toggle="modal" data-target="#enlargedPhotoModal"></div>
                         <div class="col-lg-8">
                             Implemented an approximate Q-learning agent (a subclass of the grid world Q-learning agent below).<br><br>
                             This agent navigates through a game of Pacman, learning about its environment through a series of training episodes
