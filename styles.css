@@ -99,3 +99,24 @@ h6.active {
 .project-img {
     max-width: 100%;
 }
+
+.space-below {
+    padding-bottom: 2em;
+}
+
+
+/* Image enlargement on click */
+
+
+img:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh; /* Set height to 80% of the viewport height */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */ 
+    z-index: 9999; /* Set a high z-index value to ensure the image is on top */
+
+}
+
